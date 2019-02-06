@@ -76,6 +76,8 @@ ul li:last-child {
 .submenu a {
 	text-align: left;
 	padding-left: 30px;
+	line-height: 40px;
+	font: 11px;
 }
 
 .menu li:hover  ul {
