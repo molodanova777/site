@@ -147,6 +147,9 @@ input {
 
 
 }
+.button1:hover {
+	background-color: white;
+}
 
 .basket {
 	position: relative;
@@ -240,7 +243,7 @@ height: 655px;
 width: 270px;
 margin-left: 10px;
 margin-right: 0px;
-margin-top: 12px;
+margin-top: 20px;
 margin-bottom: 12px;
 border: 1px solid white;
 
@@ -393,5 +396,19 @@ position: absolute;
 	margin-top: 105px;
 	margin-left: 200px;
 
+}
+.buttext {
+	float: left;
+	margin-left: 40px;
+}
+.butadd1 {
+	height: 20px;
+	width: 20px;
+	float: right;
+	background-image: url(images/icon2.png);
+	background-repeat: no-repeat;	
+	background-color: 0,0,0,0;
+	margin-right: 10px;
+	margin-top: 3px;
 }
 
