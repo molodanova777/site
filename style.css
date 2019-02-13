@@ -203,13 +203,18 @@ input {
 
 }
 .col-md-25 {
-	width: 25%;
+	width: 23%;
+	position: relative;
+	border-right: 1px solid white;
+	margin-right: 20px;
+	background-color: rgba(255,255,255,0.2);
+
 	
 
 }
 .col-md-75 {
 	width: 75%;
-	
+
 }
 .col-md-67 {
 
@@ -368,6 +373,10 @@ border: 1px solid white;
 	font-weight: bold;
 	text-transform: uppercase;
 }
+.butdet:hover {
+		background-color: rgba(255,255,255,0.2);
+}
+
 .butadd {
 position: absolute;
 	height: 50px;
@@ -381,7 +390,9 @@ position: absolute;
 	font-weight: bold;
 	text-transform: uppercase;
 	
-
+}
+.butadd:hover {
+		background-color: rgba(255,255,255,0.2);
 }
 
 .buticon {
@@ -400,6 +411,7 @@ position: absolute;
 .buttext {
 	float: left;
 	margin-left: 40px;
+	padding-top: 2px;
 }
 .butadd1 {
 	height: 20px;
@@ -425,4 +437,91 @@ position: absolute;
 .lidown {
 
 	padding-left: 25px;
+}
+.devtype1 {
+	height: 150px;
+	width: 270px
+
+}
+
+.devtype1 p {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 22px;
+	padding-left: 30px;
+	padding-top: 40px;
+	color: white;
+}
+.devtype p {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 22px;
+	padding-left: 30px;
+	padding-top: 40px;
+	color: white;
+}
+.bar {
+	padding-top: 30px;
+	margin-left: 30px;
+	font-size: 17px;
+}
+.bara {
+	height: 40px;
+	width: 270px;
+	display: block;
+	text-decoration: none;
+}
+.bara:visited {
+	color: white;
+}
+
+input[type=checkbox] + label {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "";
+  border: 1px solid white;
+  background-color: 0,0,0,0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-right: 10px;
+  vertical-align: bottom;
+  color: white;
+  
+}
+input[type=checkbox]:checked + label:before {
+  background-color: white;
+  
+}
+.show p {
+	color: white;
+	font-size: 20px;
+	padding-left: 30px; 
+}
+.submit {
+	position: absolute;
+	height: 50px;
+	width: 210px;
+	top: 825px;
+	left: 32px;
+	border: 1px solid white;
+	background-color: #2c71b8;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.submit:hover {
+		background-color: rgba(255,255,255,0.2);
 }
